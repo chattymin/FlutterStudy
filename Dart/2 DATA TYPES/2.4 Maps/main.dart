@@ -1,12 +1,14 @@
 void main() {
-  // Collection For
-  var oldFriends = ['nico', 'lynn'];
-  var newFriends = [
-    'lewis',
-    'ralph',
-    'darren',
-    for (var friend in oldFriends) "❤️ $friend"
-  ];
+  // Maps
+  var player = {
+    'name': 'nico',
+    'xp': 19.99,
+    'superpower': false,
+  };
 
-  print(newFriends);
+  Map<int, bool> players = {
+    1: true,
+    2: false,
+    3: true,
+  };
 }
